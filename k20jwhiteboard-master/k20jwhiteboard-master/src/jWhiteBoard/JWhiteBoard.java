@@ -209,7 +209,7 @@ public class JWhiteBoard extends ReceiverAdapter implements ActionListener, Chan
         try {
             whiteBoard=new JWhiteBoard(props, no_channel, jmx, use_state, state_timeout, use_unicasts, name,
                           send_own_state_on_merge, generator);
-            if(group_name != null) // loi ==  sua thanh !=
+            if(group_name != null) //// loi ==  sua thanh != 
                 whiteBoard.setGroupName(group_name);
             whiteBoard.go();
         }
